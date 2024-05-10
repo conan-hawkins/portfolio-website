@@ -202,6 +202,15 @@ box-sizing: border-box;
                         height: auto;
                         font-size: 100%;          
                         }}
+@media (max-width: 900px) {
+                .yay_picture, .yay_picture2{
+                flex: 100%;        
+                }
+                .picture_box, .picture_text{
+                        width: 60vw;
+                        height: auto;
+                        font-size: 100%;          
+                        }}
         
         /* END Style the boxes */
 
