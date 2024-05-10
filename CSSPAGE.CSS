@@ -193,6 +193,7 @@ box-sizing: border-box;
 @media (max-width: 1800px) {
         .picture_box2, .picture_text2{
                 width: 60vw;
+                height: auto; 
                 }}
 
                 
@@ -203,6 +204,7 @@ box-sizing: border-box;
         @media (max-width: 1200px) {
                 .picture_box, .picture_text{
                         width: 60vw;
+                        height: auto; 
                         font-size: 100%;          
                         }}
                                 
@@ -219,7 +221,8 @@ box-sizing: border-box;
                                 }}
                 @media (max-width: 400px) {
                         .picture_box, .picture_text{
-                                width: 30vw;       
+                                width: 30vw;
+                                height: auto; 
                                 }}
         
         /* END Style the boxes */
