@@ -189,6 +189,7 @@ box-sizing: border-box;
                 }
         .picture_box2, .picture_text2{
                 width: 60vw;
+                height: auto;
                 }}
 
                 
@@ -198,23 +199,9 @@ box-sizing: border-box;
                 }
                 .picture_box, .picture_text{
                         width: 60vw;
+                        height: auto;
                         font-size: 100%;          
                         }}
-                                
-                                
-                @media (max-width: 900px) {
-                        .main_text, .main_text2, .main_text3 {
-                                font-size: 150%;
-                                flex: 100%;
-                        }
-                        .yay_picture, .yay_picture2{
-                        flex: 100%;
-                        font-size: 100%;        
-                                }
-                        .picture_box, .picture_text{
-                                width: 30vw;
-                                height: auto;       
-                                }}
         
         /* END Style the boxes */
 
