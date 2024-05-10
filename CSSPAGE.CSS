@@ -170,41 +170,34 @@ box-sizing: border-box;
                 font-size: inherit;
         }
                 /* END Style inside picture content boxes */
-      /* Responsive layout - makes a one column layout instead of a two-column layout */
+      /* Responsive layout - makes a one-column layout instead of a two-column layout */
 
 @media (max-width: 1800px) {
 .main_text, .main_text2, .main_text3 {
         font-size: 200%;
         flex: 100%;
-        }}
-@media (max-width: 1800px) {
+        }
         .yay_picture{
         font-size: 200%;
         flex: 50%;
-        }}
-@media (max-width: 1800px) {
+        }
         .picture_box, .picture_text{
                 width: 35vw;       
-                }}
-@media (max-width: 1800px) {
+                }
         .picture_text{
                 font-size: 150%;
-                }}
-@media (max-width: 1800px) {
+                }
         .picture_box2, .picture_text2{
                 width: 60vw;
-                height: auto; 
                 }}
 
                 
         @media (max-width: 1200px) {
                 .yay_picture, .yay_picture2{
                 flex: 100%;        
-                }}
-        @media (max-width: 1200px) {
+                }
                 .picture_box, .picture_text{
                         width: 60vw;
-                        height: auto; 
                         font-size: 100%;          
                         }}
                                 
@@ -213,16 +206,14 @@ box-sizing: border-box;
                         .main_text, .main_text2, .main_text3 {
                                 font-size: 150%;
                                 flex: 100%;
-                        }}
-                @media (max-width: 900px) {
+                        }
                         .yay_picture, .yay_picture2{
                         flex: 100%;
                         font-size: 100%;        
-                                }}
-                @media (max-width: 400px) {
+                                }
                         .picture_box, .picture_text{
                                 width: 30vw;
-                                height: auto; 
+                                height: auto;       
                                 }}
         
         /* END Style the boxes */
